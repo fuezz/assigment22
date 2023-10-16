@@ -1,0 +1,84 @@
+.colorful-text {
+    color: blue;
+}
+.large-text {
+    font-size: 24px;
+}
+.lowercase-text {
+    text-transform: lowercase;
+}
+
+.container1 {
+    margin: 20px;
+}
+
+/* Absolute Position */
+.absolute-box {
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    background-color: #ffcc00;
+    padding: 10px;
+}
+
+/* Relative Position */
+.relative-container {
+    position: relative;
+}
+
+.relative-box {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    background-color: #33cc33;
+    padding: 10px;
+}
+
+/* Fixed Position */
+.fixed-box {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background-color: #3366cc;
+    padding: 10px;
+}
+
+.container2 {
+    margin: 20px;
+}
+
+/* Nested Selector Example */
+.nested-list {
+    list-style: none;
+}
+
+.nested-list li {
+    padding: 5px;
+    background-color: #33cc33;
+    color: #fff;
+}
+
+.container3 {
+    margin: 20px;
+}
+
+/* Grouped Selectors Example */
+.highlight-text,
+.highlight-text h3 {
+    background-color: #ffcc00;
+    padding: 10px;
+    color: #333;
+}
+
+.box-example {
+    width: 200px;
+    padding: 20px;
+    border: 2px solid #333;
+    margin: 30px;
+    background-color: #ffcc00;
+    text-align: center;
+}
+
+.box-example p {
+    margin: 0;
+}
